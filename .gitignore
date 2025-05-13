@@ -1,0 +1,37 @@
+# Unity
+[Linha principal do Unity.gitignore]
+/[Linha principal do Unity.gitignore]
+/Library/
+/Temp/
+/Obj/
+/Build/
+/Logs/
+/MemoryCaptures/
+/UserSettings/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Builds
+*.apk
+*.aab
+*.exe
+*.app
+*.ipa
+*.xcodeproj
