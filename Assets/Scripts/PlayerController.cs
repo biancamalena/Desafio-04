@@ -1,9 +1,11 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
     public float normalSpeed = 5f;
     public float slowSpeed = 2f;
+    public float jumpForce = 7f; 
+    public float gravityScale = 2f; 
     private float currentSpeed;
 
     private Rigidbody2D rb;
@@ -13,6 +15,7 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         currentSpeed = normalSpeed;
+        rb.gravityScale = gravityScale;
     }
 
     void Update()
@@ -20,9 +23,9 @@ public class PlayerController : MonoBehaviour
         float horizontal = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(horizontal * currentSpeed, rb.velocity.y);
 
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)) && isGrounded)
         {
-            rb.velocity = new Vector2(rb.velocity.x, 10f);
+            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
             isGrounded = false;
         }
     }
@@ -34,21 +37,4 @@ public class PlayerController : MonoBehaviour
             isGrounded = true;
         }
     }
-
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Water"))
-        {
-            currentSpeed = slowSpeed;
-        }
-    }
-
-    void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.CompareTag("Water"))
-        {
-            currentSpeed = normalSpeed;
-        }
-    }
 }
-
