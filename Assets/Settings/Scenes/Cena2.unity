@@ -598,10 +598,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jogador
       objectReference: {fileID: 0}
-    - target: {fileID: 3900093197403790162, guid: 0c210fe0953ec6c4d8312647b9453a6a, type: 3}
-      propertyPath: velocidade
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7432743984148865060, guid: 0c210fe0953ec6c4d8312647b9453a6a, type: 3}
       propertyPath: health
       value: 3
@@ -636,7 +632,6 @@ PrefabInstance:
       objectReference: {fileID: 1183607789}
     m_RemovedComponents:
     - {fileID: 7432743984148865060, guid: 0c210fe0953ec6c4d8312647b9453a6a, type: 3}
-    - {fileID: 3900093197403790162, guid: 0c210fe0953ec6c4d8312647b9453a6a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0c210fe0953ec6c4d8312647b9453a6a, type: 3}
 --- !u!1001 &3862109560836081207
 PrefabInstance:
