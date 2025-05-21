@@ -12,7 +12,7 @@ public class Jogador : MonoBehaviour
 
     void Update()
     {
-        // Movimento horizontal contínuo (direita)
+       
         rb.velocity = new Vector2(velocidade, rb.velocity.y);
     }
     void OnTriggerEnter2D(Collider2D col)
