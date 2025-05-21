@@ -124,8 +124,11 @@ NavMeshSettings:
   m_NavMeshData: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
+=======
+>>>>>>> parent of 79a3350 (merge commit)
 =======
 >>>>>>> parent of 79a3350 (merge commit)
 =======
@@ -179,6 +182,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  velocidade: 5
+>>>>>>> parent of 79a3350 (merge commit)
 =======
   velocidade: 5
 >>>>>>> parent of 79a3350 (merge commit)
@@ -202,7 +209,10 @@ MonoBehaviour:
   m_SpriteKey: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 79a3350 (merge commit)
 =======
 >>>>>>> parent of 79a3350 (merge commit)
 =======
@@ -397,6 +407,7 @@ Transform:
   m_Father: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -404,6 +415,10 @@ Transform:
 =======
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> parent of 79a3350 (merge commit)
 =======
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -572,6 +587,9 @@ Transform:
   m_LocalPosition: {x: 6.6, y: -1.2, z: 0}
   m_LocalScale: {x: 5.185795, y: 5.3932266, z: 5.185795}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 79a3350 (merge commit)
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -687,6 +705,9 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 27.861095, y: 14.399968, z: 9.964833}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 79a3350 (merge commit)
 =======
 >>>>>>> parent of 79a3350 (merge commit)
   m_ConstrainProportionsScale: 0
@@ -705,10 +726,16 @@ GameObject:
   m_Component:
   - component: {fileID: 1248833909}
   - component: {fileID: 1248833910}
+<<<<<<< HEAD
   - component: {fileID: 1248833911}
   m_Layer: 0
   m_Name: Chao grande
   m_TagString: Ground
+=======
+  m_Layer: 0
+  m_Name: Chao grande
+  m_TagString: Untagged
+>>>>>>> parent of 79a3350 (merge commit)
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -780,6 +807,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 --- !u!61 &1248833911
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -806,6 +834,8 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 150.47592, y: 4}
   m_EdgeRadius: 0
+=======
+>>>>>>> parent of 79a3350 (merge commit)
 --- !u!1 &1357695304
 GameObject:
   m_ObjectHideFlags: 0
@@ -868,7 +898,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c060cbd39d2041849b4ce537e51dbb57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
 --- !u!1 &1637738525
+=======
+  velocidade: 5
+--- !u!1 &1755793472
+>>>>>>> parent of 79a3350 (merge commit)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -876,21 +911,34 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 1637738527}
   - component: {fileID: 1637738526}
   m_Layer: 0
   m_Name: "Po\xE7a d'\xE1gua"
+=======
+  - component: {fileID: 1755793473}
+  - component: {fileID: 1755793474}
+  m_Layer: 0
+  m_Name: cenario grande
+>>>>>>> parent of 79a3350 (merge commit)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!212 &1637738526
 SpriteRenderer:
+=======
+--- !u!4 &1755793473
+Transform:
+>>>>>>> parent of 79a3350 (merge commit)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1637738525}
   m_Enabled: 1
   m_CastShadows: 0
@@ -939,10 +987,24 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 --- !u!4 &1637738527
 Transform:
+=======
+  m_GameObject: {fileID: 1755793472}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -160.1975, y: -2.3555, z: 0}
+  m_LocalScale: {x: 0.61337, y: 0.61337, z: 0.61337}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2000616824}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1755793474
+SpriteRenderer:
+>>>>>>> parent of 79a3350 (merge commit)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1637738525}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 17.6, y: -5.8, z: 0}
@@ -957,6 +1019,55 @@ Transform:
 =======
 --- !u!1 &1083302923
 >>>>>>> parent of 79a3350 (merge commit)
+=======
+  m_GameObject: {fileID: 1755793472}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 640873d948c7e614a82264ce4b2616f9, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 150.37526, y: 13.29}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &1839311216
+>>>>>>> parent of 79a3350 (merge commit)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -964,6 +1075,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 1755793473}
   - component: {fileID: 1755793474}
@@ -1081,6 +1193,9 @@ GameObject:
 =======
   - component: {fileID: 1129933088}
 >>>>>>> parent of 79a3350 (merge commit)
+=======
+  - component: {fileID: 1839311217}
+>>>>>>> parent of 79a3350 (merge commit)
   m_Layer: 0
   m_Name: Pisos
   m_TagString: Untagged
@@ -1089,9 +1204,13 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &1839311217
 =======
 --- !u!4 &1129933088
+>>>>>>> parent of 79a3350 (merge commit)
+=======
+--- !u!4 &1839311217
 >>>>>>> parent of 79a3350 (merge commit)
 Transform:
   m_ObjectHideFlags: 0
@@ -1099,9 +1218,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1839311216}
 =======
   m_GameObject: {fileID: 1129933087}
+>>>>>>> parent of 79a3350 (merge commit)
+=======
+  m_GameObject: {fileID: 1839311216}
 >>>>>>> parent of 79a3350 (merge commit)
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 27.861095, y: 14.399968, z: 9.964833}
@@ -1109,17 +1232,23 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 79a3350 (merge commit)
   - {fileID: 618341999}
   m_Father: {fileID: 7166792}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2000616823
+<<<<<<< HEAD
 =======
   - {fileID: 1248833909}
   m_Father: {fileID: 1357695306}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1248833908
+>>>>>>> parent of 79a3350 (merge commit)
+=======
 >>>>>>> parent of 79a3350 (merge commit)
 GameObject:
   m_ObjectHideFlags: 0
@@ -1128,6 +1257,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 2000616824}
   m_Layer: 0
@@ -1138,15 +1268,24 @@ GameObject:
   m_Layer: 0
   m_Name: Chao grande
 >>>>>>> parent of 79a3350 (merge commit)
+=======
+  - component: {fileID: 2000616824}
+  m_Layer: 0
+  m_Name: "Cen\xE1rios"
+>>>>>>> parent of 79a3350 (merge commit)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &2000616824
 =======
 --- !u!4 &1248833909
+>>>>>>> parent of 79a3350 (merge commit)
+=======
+--- !u!4 &2000616824
 >>>>>>> parent of 79a3350 (merge commit)
 Transform:
   m_ObjectHideFlags: 0
@@ -1154,6 +1293,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 79a3350 (merge commit)
   m_GameObject: {fileID: 2000616823}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 69.35191, y: 3.5827043, z: 9.964833}
@@ -1175,7 +1317,10 @@ GameObject:
   - component: {fileID: 2017749197}
   - component: {fileID: 2017749196}
   - component: {fileID: 2017749195}
+<<<<<<< HEAD
   - component: {fileID: 2017749201}
+=======
+>>>>>>> parent of 79a3350 (merge commit)
   - component: {fileID: 2017749200}
   - component: {fileID: 2017749199}
   m_Layer: 0
@@ -1207,6 +1352,7 @@ Animator:
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &2017749196
+<<<<<<< HEAD
 =======
   m_GameObject: {fileID: 1248833908}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
@@ -1219,15 +1365,21 @@ Animator:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1248833910
 >>>>>>> parent of 79a3350 (merge commit)
+=======
+>>>>>>> parent of 79a3350 (merge commit)
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 2017749194}
 =======
   m_GameObject: {fileID: 1248833908}
+>>>>>>> parent of 79a3350 (merge commit)
+=======
+  m_GameObject: {fileID: 2017749194}
 >>>>>>> parent of 79a3350 (merge commit)
   m_Enabled: 1
   m_CastShadows: 0
@@ -1263,26 +1415,36 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_SortingOrder: 5
   m_Sprite: {fileID: 1122577433, guid: 941955013bac56448a0b696f99c9cc08, type: 3}
 =======
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 5f1c11af28fcf12468b23ff078efb1dd, type: 3}
 >>>>>>> parent of 79a3350 (merge commit)
+=======
+  m_SortingOrder: 5
+  m_Sprite: {fileID: 1122577433, guid: 941955013bac56448a0b696f99c9cc08, type: 3}
+>>>>>>> parent of 79a3350 (merge commit)
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Size: {x: 0.39, y: 0.67}
 =======
   m_Size: {x: 150.47592, y: 8.67}
+>>>>>>> parent of 79a3350 (merge commit)
+=======
+  m_Size: {x: 0.39, y: 0.67}
 >>>>>>> parent of 79a3350 (merge commit)
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!4 &2017749197
 =======
@@ -1306,12 +1468,18 @@ GameObject:
   m_IsActive: 1
 --- !u!4 &1357695306
 >>>>>>> parent of 79a3350 (merge commit)
+=======
+--- !u!4 &2017749197
+>>>>>>> parent of 79a3350 (merge commit)
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 79a3350 (merge commit)
   m_GameObject: {fileID: 2017749194}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.17, y: -2.72, z: 0}
@@ -1368,6 +1536,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.39, y: 0.67}
   m_EdgeRadius: 0
+<<<<<<< HEAD
 --- !u!114 &2017749201
 =======
   m_GameObject: {fileID: 1357695304}
@@ -2246,6 +2415,8 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.39, y: 0.67}
   m_EdgeRadius: 0
+=======
+>>>>>>> parent of 79a3350 (merge commit)
 --- !u!1 &2105080528
 GameObject:
   m_ObjectHideFlags: 0
