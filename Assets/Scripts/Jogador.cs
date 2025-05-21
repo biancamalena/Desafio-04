@@ -15,4 +15,12 @@ public class Jogador : MonoBehaviour
         // Movimento horizontal contínuo (direita)
         rb.velocity = new Vector2(velocidade, rb.velocity.y);
     }
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        Debug.Log(col.gameObject.name + " : " + gameObject.name + " : " + Time.time);
+        if (col.CompareTag("guarana"))
+        {
+            GetComponent<HealthDisplay>().health++;
+        }
+    }
 }
