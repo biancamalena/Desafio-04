@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3454ca3db9d737f40a5e899549e1d1c3, type: 3}
+  m_Name: DialogueData
+  m_EditorClassIdentifier: 
+  talkScript:
+  - name: Ana
+    text: "Oi, Jo\xE3o! Tudo bem?"
+  - name: "Jo\xE3o"
+    text: "Oi, Ana! Tudo sim, e voc\xEA?"
+  - name: Ana
+    text: "Tamb\xE9m t\xF4 bem. T\xE1 indo pra onde?"
+  - name: "Jo\xE3o"
+    text: "T\xF4 indo na padaria. E voc\xEA?"
+  - name: Ana
+    text: "Indo pra casa. Aproveita e compra um p\xE3o pra mim?"
+  - name: "Jo\xE3o"
+    text: "Claro! Quantos voc\xEA quer?"
+  - name: Ana
+    text: "S\xF3 dois, por favor."
+  - name: "Jo\xE3o"
+    text: "T\xE1 bom. Te entrego quando voltar."
+  - name: Ana
+    text: "Obrigada, Jo\xE3o!"
+  - name: "Jo\xE3o"
+    text: "De nada, Ana. At\xE9 j\xE1!"
