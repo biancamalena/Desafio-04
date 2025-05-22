@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7951528975620737688}
   - component: {fileID: 7951528975620737687}
-  - component: {fileID: 5301553091827557000}
+  - component: {fileID: 411351540288478879}
+  - component: {fileID: 6174250911896210377}
   m_Layer: 0
   m_Name: "Po\xE7a d'\xE1gua"
   m_TagString: Obstacle
@@ -85,7 +86,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!70 &5301553091827557000
+--- !u!114 &411351540288478879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7951528975620737686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 352ff35e262e148458dfeb3ac1b50f0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slowDuration: 2
+--- !u!70 &6174250911896210377
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -98,6 +112,6 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.14969298, y: -0.349305}
-  m_Size: {x: 7.7949615, y: 3.753076}
-  m_Direction: 1
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 10.24, y: 10.24}
+  m_Direction: 0
