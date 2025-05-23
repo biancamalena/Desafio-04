@@ -17,6 +17,9 @@ GameObject:
   - component: {fileID: 5301553091827557000}
   - component: {fileID: 8534909706942500107}
   - component: {fileID: 149920147385825667}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   m_Layer: 0
   m_Name: "Po\xE7a d'\xE1gua"
@@ -151,4 +154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cea99d9806ee984da475318011521d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
