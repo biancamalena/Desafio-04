@@ -2,27 +2,30 @@
 
 public class ObstacleSpawner : MonoBehaviour
 {
-    public GameObject obstaclePrefab;
-    public float spawnInterval = 2f;
-    public float minY = -1f;
-    public float maxY = 1f;
+    public GameObject[] obstaculos;
+    public float intervalo = 2f;
+    public Transform pontoSpawn;
 
-    private float timer = 0f;
+    private float tempoParaProximoSpawn;
 
     void Update()
     {
-        timer += Time.deltaTime;
-        if (timer >= spawnInterval)
+        tempoParaProximoSpawn -= Time.deltaTime;
+
+        if (tempoParaProximoSpawn <= 0)
         {
-            SpawnObstacle();
-            timer = 0f;
+            SpawnarObstaculo();
+            tempoParaProximoSpawn = intervalo;
         }
     }
 
-    void SpawnObstacle()
+    void SpawnarObstaculo()
     {
-        float y = Random.Range(minY, maxY);
-        Vector3 spawnPosition = new Vector3(transform.position.x, y, 0);
-        Instantiate(obstaclePrefab, spawnPosition, Quaternion.identity);
+        if (obstaculos.Length == 0 || pontoSpawn == null)
+            return;
+
+        int index = Random.Range(0, obstaculos.Length);
+        Instantiate(obstaculos[index], pontoSpawn.position, Quaternion.identity);
     }
 }
+
