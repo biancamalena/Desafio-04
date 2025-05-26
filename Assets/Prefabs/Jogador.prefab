@@ -9,8 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1778515935564360147}
+  - component: {fileID: 7432743984148865060}
   - component: {fileID: -362304094253410594}
-  - component: {fileID: 504910823493876136}
+  - component: {fileID: 3014621666849327502}
   - component: {fileID: 1778515935564360146}
   - component: {fileID: 1778515935564360149}
   - component: {fileID: 1778515935564360142}
@@ -37,6 +38,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7432743984148865060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778515935564360148}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e14cec3222158e4dbd07044a871b837, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  maxHealth: 0
+  emptyHeart: {fileID: 0}
+  fullHeart: {fileID: 0}
+  hearts: []
 --- !u!114 &-362304094253410594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49,10 +67,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e303770924132b4cb7ee0b4854cedec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  normalSpeed: 5
+  slowSpeed: 2
   jumpForce: 7
   gravityScale: 2
-  slowDuration: 2
---- !u!114 &504910823493876136
+--- !u!114 &3014621666849327502
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -61,14 +80,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1778515935564360148}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e14cec3222158e4dbd07044a871b837, type: 3}
+  m_Script: {fileID: 11500000, guid: 0942a8ec2f42dda43b06f2a387eac46f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 0
-  emptyHeart: {fileID: 21300000, guid: 37df02abb5737ba45ae8a71f804aca8b, type: 3}
-  fullHeart: {fileID: 21300000, guid: d745de2053b7c6c41b9ff62b386587c4, type: 3}
+  normalSpeed: 5
+  slowSpeed: 2
+  slowDuration: 2
+  snake: {fileID: 0}
+  maxHearts: 3
   hearts: []
+  fullHeart: {fileID: 21300000, guid: d745de2053b7c6c41b9ff62b386587c4, type: 3}
+  emptyHeart: {fileID: 21300000, guid: 37df02abb5737ba45ae8a71f804aca8b, type: 3}
 --- !u!212 &1778515935564360146
 SpriteRenderer:
   m_ObjectHideFlags: 0
