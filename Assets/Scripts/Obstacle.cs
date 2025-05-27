@@ -2,18 +2,17 @@
 
 public class Obstacle : MonoBehaviour
 {
-    public float slowDuration = 2f; 
-
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            PlayerController player = other.GetComponent<PlayerController>();
-            if (player != null)
+            Serpente serpente = FindObjectOfType<Serpente>();
+            if (serpente != null)
             {
-                player.SlowDown(slowDuration);
-                Destroy(gameObject);
+                serpente.AproximarDoJogador();
             }
+
+            Destroy(gameObject);
         }
     }
 }

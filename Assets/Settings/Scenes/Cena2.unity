@@ -248,8 +248,9 @@ GameObject:
   - component: {fileID: 365315787}
   - component: {fileID: 365315786}
   - component: {fileID: 365315785}
+  - component: {fileID: 365315788}
   m_Layer: 0
-  m_Name: Walk_0
+  m_Name: Serpente
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -343,6 +344,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &365315788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 365315784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a089bed41dd2d6a4a938ab425fdf840b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 960885575}
+  chaseSpeed: 6
+  chaseDuration: 2
 --- !u!1 &387245725 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3862109560372027481, guid: ee5c9a132f6e1dc4382f903650fc2cde, type: 3}
@@ -374,6 +390,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 150.47592, y: 6.446703}
   m_EdgeRadius: 0
+--- !u!4 &960885575 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1778515935564360147, guid: 0c210fe0953ec6c4d8312647b9453a6a, type: 3}
+  m_PrefabInstance: {fileID: 1778515937581531422}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &971028834
 GameObject:
   m_ObjectHideFlags: 0
@@ -795,6 +816,10 @@ PrefabInstance:
     - target: {fileID: 1778515935564360148, guid: 0c210fe0953ec6c4d8312647b9453a6a, type: 3}
       propertyPath: m_Name
       value: Jogador
+      objectReference: {fileID: 0}
+    - target: {fileID: 1778515935564360148, guid: 0c210fe0953ec6c4d8312647b9453a6a, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c210fe0953ec6c4d8312647b9453a6a, type: 3}

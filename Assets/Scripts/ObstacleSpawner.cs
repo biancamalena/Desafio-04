@@ -25,7 +25,10 @@ public class ObstacleSpawner : MonoBehaviour
             return;
 
         int index = Random.Range(0, obstaculos.Length);
-        Instantiate(obstaculos[index], pontoSpawn.position, Quaternion.identity);
+
+        Vector3 posicaoSpawn = pontoSpawn.position;
+        posicaoSpawn.y += Random.Range(-0.5f, 0.5f);
+
+        Instantiate(obstaculos[index], posicaoSpawn, Quaternion.identity);
     }
 }
-

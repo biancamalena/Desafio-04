@@ -3,25 +3,31 @@
 public class Serpente : MonoBehaviour
 {
     public Transform player;
-    public float normalSpeed = 4f;
     public float chaseSpeed = 6f;
+    public float chaseDuration = 2f;
 
-    private float currentSpeed;
+    private bool estaPerseguindo = false;
+    private float chaseTimer = 0f;
 
     void Update()
     {
-        float distance = Vector2.Distance(transform.position, player.position);
-
-        if (distance < 5f) 
+        if (estaPerseguindo)
         {
-            currentSpeed = chaseSpeed;
-        }
-        else
-        {
-            currentSpeed = normalSpeed;
-        }
+            chaseTimer -= Time.deltaTime;
 
-        transform.position = Vector2.MoveTowards(transform.position, player.position, currentSpeed * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, player.position, chaseSpeed * Time.deltaTime);
+
+            if (chaseTimer <= 0)
+            {
+                estaPerseguindo = false;
+            }
+        }
+    }
+
+    public void AproximarDoJogador()
+    {
+        estaPerseguindo = true;
+        chaseTimer = chaseDuration;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -34,7 +40,8 @@ public class Serpente : MonoBehaviour
                 health.health--;
                 Debug.Log("Jogador foi alcançado pela serpente!");
             }
+
+            estaPerseguindo = false; 
         }
     }
 }
-
