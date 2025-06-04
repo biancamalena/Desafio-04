@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1778515935564360149}
   - component: {fileID: 1778515935564360142}
   - component: {fileID: 1778515935564360145}
+  - component: {fileID: 8327353420607084088}
   m_Layer: 0
   m_Name: Jogador
   m_TagString: Untagged
@@ -64,8 +65,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e14cec3222158e4dbd07044a871b837, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 0
+  health: 3
+  maxHealth: 3
   emptyHeart: {fileID: 21300000, guid: 37df02abb5737ba45ae8a71f804aca8b, type: 3}
   fullHeart: {fileID: 21300000, guid: d745de2053b7c6c41b9ff62b386587c4, type: 3}
   hearts: []
@@ -189,3 +190,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &8327353420607084088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778515935564360148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b7f6ba8705a64e4e9aae466f94f9a58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
